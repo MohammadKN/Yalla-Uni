@@ -9,6 +9,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.13.0"
+  back_button_interceptor:
+    dependency: transitive
+    description:
+      name: back_button_interceptor
+      sha256: acd24e8b6fb985024426335761583902d5a9afefcc93785881896b406e1859ce
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.0.2"
   boolean_selector:
     dependency: transitive
     description:
@@ -49,6 +57,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.8"
+  expanded_bottom_sheet:
+    dependency: "direct main"
+    description:
+      name: expanded_bottom_sheet
+      sha256: "1d6c5d269df530363dac128aeedde93466a907f7ba97bd02abb9e63fbdb6fb7f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.4"
   fake_async:
     dependency: transitive
     description:

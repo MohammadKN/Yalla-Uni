@@ -8,7 +8,6 @@
       "version": "1.0.0+1",
       "dependencies": [
         "cupertino_icons",
-        "expanded_bottom_sheet",
         "flutter"
       ],
       "devDependencies": [
@@ -39,14 +38,6 @@
         "stream_channel",
         "test_api",
         "vector_math"
-      ]
-    },
-    {
-      "name": "expanded_bottom_sheet",
-      "version": "0.0.4",
-      "dependencies": [
-        "back_button_interceptor",
-        "flutter"
       ]
     },
     {
@@ -153,14 +144,6 @@
         "stream_channel",
         "string_scanner",
         "term_glyph"
-      ]
-    },
-    {
-      "name": "back_button_interceptor",
-      "version": "5.0.2",
-      "dependencies": [
-        "collection",
-        "flutter"
       ]
     },
     {

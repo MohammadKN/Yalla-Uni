@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart' hide BottomSheet;
-import '/widgets/bottomSheet.dart';
+import 'package:flutter/material.dart';
+//import '/widgets/bottomSheet.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -7,7 +7,30 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Yalla Uni')),
+      appBar: AppBar(title: Text('Yalla Uni')),
+      bottomSheet: DraggableScrollableSheet(
+        initialChildSize: 0.4,
+        maxChildSize: 0.8,
+        minChildSize: 0.2,
+        snap: true,
+        builder: (BuildContext context, ScrollController scrollController) {
+          return SingleChildScrollView(
+            controller: scrollController,
+            child: Container(
+              color: Colors.grey[200],
+              child: Column(
+                children: List.generate(
+                  20,
+                      (index) => ListTile(
+                    title: Text('Item ${index + 1}'),
+                  ),
+                ),
+              ),
+            ),
+          );
+        },
+
+      ),
       body: Stack(
         children: [
           Center(
@@ -23,7 +46,12 @@ class HomePage extends StatelessWidget {
               ],
             ),
           ),
-          BottomSheet(),
+          GestureDetector(
+            child: Text("Book A Ride"),
+            onTap: (){
+
+            },
+          ),
         ],
       ),
     );

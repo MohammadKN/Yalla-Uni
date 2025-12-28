@@ -8,12 +8,6 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "back_button_interceptor",
-      "rootUri": "file:///Users/new/.pub-cache/hosted/pub.dev/back_button_interceptor-5.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.13"
-    },
-    {
       "name": "boolean_selector",
       "rootUri": "file:///Users/new/.pub-cache/hosted/pub.dev/boolean_selector-2.1.2",
       "packageUri": "lib/",
@@ -42,12 +36,6 @@
       "rootUri": "file:///Users/new/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.8",
       "packageUri": "lib/",
       "languageVersion": "3.1"
-    },
-    {
-      "name": "expanded_bottom_sheet",
-      "rootUri": "file:///Users/new/.pub-cache/hosted/pub.dev/expanded_bottom_sheet-0.0.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
     },
     {
       "name": "fake_async",
